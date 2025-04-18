@@ -35,7 +35,7 @@
 
 <p> The stacking classifier was used with logistic regressor and decision tree, as well as, with softmax regressor and decision tree, using another logistic regressor as the final estimator. When fitted on both the 20D and 6D data, the two pairs of stacking classifiers classified the mushrooms with 100% accuracy, precision, and recall. </p>
 
-<p style="color: red;">View the confusion matrices and values to all performance metrics for individual models in the Jupyter Notebooks - Mushroom Classiification 20D and Mushroom Classification 6D.</p>
+> 📌 **View the confusion matrices and values to all performance metrics for individual models in the Jupyter Notebooks - Mushroom Classiification 20D and Mushroom Classification 6D.**
 
 ## Conclusion
 <p> Since, tree-based models gave the best results, Decision Tree Classifier could be the best option among all as it’s the least computationally intensive model, least complex, and also highly explainable. Although, support-vector classifier with the polynomial kernel also performed equally well, it required a polynomial of degree 5. When thinking about applying these models in a real-life scenario, where, it is likely that non-ML-experts will also be involved, a simpler and easily interpretable model, that is able to predict with high accuracy, precision, and recall, should be preferred. </p>
